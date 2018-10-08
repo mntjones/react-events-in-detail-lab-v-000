@@ -7,4 +7,8 @@ export default class DelayedButton extends Component {
     this.props.delay = delay;
     
   }  
+  
+  render() {
+    return 
+  }
 }
