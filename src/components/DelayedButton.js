@@ -12,3 +12,5 @@ export default class DelayedButton extends Component {
     return <button onClick={onDelayedClick}>Delay</button>
   }
 }
+
+setTimeout(function(){ alert("Hello"); }, 3000);
