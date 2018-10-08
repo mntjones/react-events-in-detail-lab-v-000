@@ -9,6 +9,6 @@ export default class CoordinatesButton extends Component {
   }
 
   render() {
-    return <button onClick={this.createArray}>Button</button>
+    return <button onClick={this.createArray}>Coordinates</button>
   }
 }
