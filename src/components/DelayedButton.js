@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 export default class DelayedButton extends Component {
 
-  timeOut(e, delay) {
+  setTimeout(e, delay) {
     this.props.delay = delay;
     
   }  
